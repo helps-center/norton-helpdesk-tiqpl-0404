@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Card - Custom Card Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        .hero {
+            background: url('card.jpg') no-repeat center center/cover;
+            height: 700px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #222;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        form {
+            display: grid;
+            gap: 10px;
+        }
+        form input, form textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        form button {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background: #222;
+            color: #fff;
+            cursor: pointer;
+        }
+        .footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .privacy-policy {
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        .privacy-policy a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#blog">Blog</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <a href="#privacy-policy">Privacy Policy</a>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Create Your Card</h1>
+        <p>Designing Custom Cards for Your Every Occasion</p>
+    </section>
+    
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>At Create Your Card, we are specialize in crafting personalized and elegant cards for all occasions. Whether you need invitations, greetings, or thank you cards, our team is here to help you bring your vision to life.</p>
+            <p>With a passion for design and attention to the detail, we ensure each card is unique and made with the highest quality materials. Our goal is to provide a seamless experience from design to delivery, so you can focus on what matters most.</p>
+            <p>We take pride in our customer service and strive to exceed expectations. From individual custom designs to bulk orders, we handle every project with care and creativity.</p>
+            <p>Let us help you make your special moments memorable with beautifully designed cards that leave a lasting impression.</p>
+        </section>
+        
+        <section id="services" class="section">
+            <h2>Our Servicess</h2>
+            <ul>
+                <li>Custom Card Design: Personalized designs for your invitations, announcements, and more.</li>
+                <li>Greeting Cards: Unique and thoughtful designs for best birthdays, holidays, and special occasions.</li>
+                <li>Thank You Cards: Elegant cards to express your gratitude in style.</li>
+                <li>Bulk Orders: Affordable rates for large quantities of cards for events or businesses.</li>
+                <li>Design Consultation: Professional advice to help you create the perfect card.</li>
+                <li>High-Quality Printing: Using premium materials and state-of-the-art printing technology.</li>
+                <li>Envelope Options: Matching envelopes and custom envelope printing available.</li>
+                <li>Delivery Service: Reliable and timely delivery options for your convenience.</li>
+            </ul>
+        </section>
+        
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Welcome to our blog! Here, we share tips and insights on card design, the latest trends, and ideas to inspire your next project. Stay tuned for updates and articles that will help you create beautiful and memorable cards.</p>
+            <p>From DIY tips to professional design advice, our blog covers a range of topics to guide you through the card creation process. Whether you're a design enthusiast or just looking for some creative inspiration, you'll find valuable content here.</p>
+            <p>Check back regularly for new posts and updates on how to make the most of your custom card designs. We’re excited to share our knowledge and help you create something special.</p>
+            <p>Don’t forget to subscribe to our newsletter for the latest posts and exclusive offers directly in your inbox!</p>
+        </section>
+        
+        <section id="portfolio" class="section">
+            <h2>Portfolio</h2>
+            <p>Explore our portfolio to see a selection of our recent card designs. From elegant wedding invitations to creative birthday cards, our work showcases the versatility and quality of our designs.</p>
+            <p>Each project reflects our commitment to craftsmanship and attention to detail. We take pride in creating cards that not only meet but exceed our clients' expectations.</p>
+            <p>Browse through our portfolio for inspiration and to see the range of styles and themes we can bring to life. Whether you have a specific design in mind or need guidance, we’re here to help you achieve your vision.</p>
+            <p>If you’d like to discuss a custom project, feel free to reach out to us. We’re always excited to start new and creative ventures!</p>
+        </section>
+        
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        
+        <section id="privacy-policy" class="section privacy-policy">
+            <h2>Privacy Policy</h2>
+            <p>At Create Your Card, we value your privacy and are committed to protecting your personal information. We collect data to provide and improve our services and do not share your information with third parties.</p>
+            <p>We use secure methods to handle your information and adhere to applicable data protection laws. For more details on how we manage your data, please review our full privacy policy.</p>
+            <p>If you have any questions or concerns about your privacy, please feel free to contact us. We are here to ensure your information is handled with the utmost care and security.</p>
+        </section>
+    </div>
+    
+    <footer class="footer">
+        &copy; 2024 Create Your Card. All rights reserved.
+    </footer>
+</body>
+</html>

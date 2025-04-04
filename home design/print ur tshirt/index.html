@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Your T-Shirt - Custom T-Shirt Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        .hero {
+            background: url('t-shirt.jpg') no-repeat center center/cover;
+            height: 700px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #222;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        form {
+            display: grid;
+            gap: 10px;
+        }
+        form input, form textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        form button {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background: #222;
+            color: #fff;
+            cursor: pointer;
+        }
+        .footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .privacy-policy {
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        .privacy-policy a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="#privacy-policy">Privacy Policy</a>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Design Your T-Shirt</h1>
+        <p>Turn Your Ideas into Custom Tees</p>
+    </section>
+    
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Welcome to Design Your T-Shirt, where your creativity meets our expertise. We specialize in bringing your T-shirt design ideas to life with high-quality prints and exceptional service.</p>
+            <p>With years of experience in the industry, our team uses advanced technology to ensure that every design is vibrant, durable, and exactly what you envisioned.</p>
+            <p>From personal custom designs to bulk orders for events and businesses, we handle it all with precision and care.</p>
+            <p>Our commitment to quality and customer satisfaction sets us apart. Let us help you create unique T-shirts that make a statement.</p>
+        </section>
+        
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Custom T-Shirt Design: Create personalized T-shirts with your own designs, graphics, or messages.</li>
+                <li>Bulk Printing: Ideal for events, teams, or promotional purposes with large quantities.</li>
+                <li>Design Consultation: Get expert advice on creating the perfect design for your needs.</li>
+                <li>High-Quality Prints: We use premium inks and materials to ensure vibrant and long-lasting prints.</li>
+                <li>Fast Turnaround: Quick processing and delivery to meet your deadlines.</li>
+                <li>Eco-Friendly Options: Choose from sustainable materials and environmentally-friendly printing practices.</li>
+                <li>Custom Packaging: Enhance your brand with tailored packaging solutions for your T-shirts.</li>
+                <li>Online Ordering: Convenient online system for easy ordering and tracking of your custom T-shirts.</li>
+            </ul>
+        </section>
+        
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        
+        <section id="privacy-policy" class="section privacy-policy">
+            <h2>Privacy Policy</h2>
+            <p>We value your privacy. We collect and use your personal information solely to provide and enhance our services. We do not share your information with third parties. For more details, please review our <a href="#privacy-policy">full privacy policy</a>.</p>
+        </section>
+    </div>
+    
+    <footer class="footer">
+        &copy; 2024 Design Your T-Shirt. All rights reserved.
+    </footer>
+</body>
+</html>
